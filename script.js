@@ -116,7 +116,7 @@ function saveScore(polarity, option){
 function determinePersonality(){
   let personality = '';
   
-  // Determine each trait based on scores
+  // Determine each trait based on score
   personality += scores.E >= scores.I ? 'E' : 'I';
   personality += scores.S >= scores.N ? 'S' : 'N';
   personality += scores.T >= scores.F ? 'T' : 'F';
@@ -268,7 +268,7 @@ function showResults() {
   document.querySelector('.result').style.display = 'flex';
   
   // Update result content
-  document.getElementById('result-header').textContent = `${libraryData[currentLang].results.header} ${personality}`;
+  document.getElementById('result-header').textContent = libraryData[currentLang].results.header;
   
   // Update result image
   const resultImage = libraryData.illust.results[personality];
@@ -374,40 +374,12 @@ function startQuizSequence() {
 // Download result image function
 function downloadResultImage() {
   const resultImage = document.getElementById('result-image');
-  const resultHeader = document.getElementById('result-header');
   
   if (resultImage && resultImage.src) {
-    // Create a canvas to combine image and text
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
-    const img = new Image();
-    
-    img.crossOrigin = 'anonymous';
-    img.onload = function() {
-      // Set canvas size
-      canvas.width = img.width;
-      canvas.height = img.height + 100; // Extra space for text
-      
-      // Fill background
-      ctx.fillStyle = '#e0d3c0';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      
-      // Draw image
-      ctx.drawImage(img, 0, 50);
-      
-      // Add text
-      ctx.fillStyle = '#b86b13';
-      ctx.font = 'bold 24px DynaPuff, sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText(resultHeader.textContent, canvas.width / 2, 30);
-      
-      // Create download link
-      const link = document.createElement('a');
-      link.download = 'mycelitype-result.png';
-      link.href = canvas.toDataURL();
-      link.click();
-    };
-    
-    img.src = resultImage.src;
+    // Create download link directly from the image source
+    const link = document.createElement('a');
+    link.download = 'mycelitype-result.png';
+    link.href = resultImage.src;
+    link.click();
   }
 }

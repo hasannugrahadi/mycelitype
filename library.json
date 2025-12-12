@@ -8,7 +8,7 @@
             "start":"Mulai"
         },
         "tutorial":{
-            "text":""
+            "text":"<li>Buka halaman tes.</li><br>Kamu akan diajak menjelajahi “hutan” untuk mengenali pilihanmu.<li>Isi dengan tenang.</li><br>Pilih jawaban yang paling menggambarkan dirimu saat ini, bukan versi ideal atau yang kamu inginkan. <li>Lihat hasilnya.</li><br>Kamu akan mendapatkan jenis jamur yang mewakili karaktermu."
         },
         "about":{
             "text":""
@@ -112,7 +112,7 @@
             }
         },
         "results":{
-            "header":"Kamu adalah",
+            "header":"Ini adalah tipe jamurmu:",
             "feedback":"Berikan saran dan masukanmu di sini",
             "share":"Bagikan hasilmu disini"
         }
@@ -126,7 +126,7 @@
             "start":"Start"
         },
         "tutorial":{
-            "text":""
+            "text":"<li>Open the quiz page.</li><br>You will be taken on a journey through a magical forest to explore your choices.<li>Answer calmly.</li><br>Choose the answer that best describes you right now, not the ideal version or what you want to be. <li>See your results.</li><br>You will receive a mushroom type that represents your character."
         },
         "about":{
             "text":""
@@ -230,7 +230,7 @@
             }
         },
         "results":{
-            "header":"You are",
+            "header":"This is your mushroom type:",
             "feedback":"You can send your suggestions and feedback here",
             "share":"Share your results here"
         }
@@ -254,22 +254,22 @@
             "Q12":"q12.gif"
         },
         "results":{
-            "ISTJ": "amanita.jpg",
-            "ISFJ": "beech.jpg",
-            "INFJ": "chanterelle.jpg",
-            "INTJ": "chicken.jpg",
-            "ISTP": "cremini.jpg",
-            "ISFP": "lobster.jpg",
-            "INFP": "matsutake.jpg",
-            "INTP": "morel.jpg",
-            "ESTP": "oyster.jpg",
-            "ESFP": "porcini.jpg",
-            "ENFP": "portobello.jpg",
-            "ENTP": "reishi.jpg",
-            "ESTJ": "shiitake.jpg",
-            "ESFJ": "trumpet.jpg",
-            "ENFJ": "button.jpg",
-            "ENTJ": "turkey.jpg"
+            "ISTJ": "button.jpg",
+            "ISFJ": "shiitake.jpg",
+            "INFJ": "reishi.jpg",
+            "INTJ": "morel.jpg",
+            "ISTP": "oyster.jpg",
+            "ISFP": "chanterelle.jpg",
+            "INFP": "turkey.jpg",
+            "INTP": "matsutake.jpg",
+            "ESTP": "portobello.jpg",
+            "ESFP": "chicken.jpg",
+            "ENFP": "porcini.jpg",
+            "ENTP": "lobster.jpg",
+            "ESTJ": "cremini.jpg",
+            "ESFJ": "beech.jpg",
+            "ENFJ": "trumpet.jpg",
+            "ENTJ": "amanita.jpg"
         }
     },
     "scores":{

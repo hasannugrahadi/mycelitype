@@ -9,49 +9,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=DynaPuff:wght@400..700&&family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="background" data-count="23">
     <main>
-        <header>
-            <a href="index.html"><img class="logo" src="/assets/logo.svg" alt="Logo"></a>
-            <nav>
-                <ul>
-                    <li><a id="nav-tutorial"><i class="fas fa-book"></i>&nbsp;</a></li>
-                    <li><a id="nav-about"><i class="fas fa-circle-info"></i>&nbsp;</a></li>
-                </ul>
-            </nav>
-        </header>
         <div class="landing">
+            <header>
+                <a href="index.html"><img class="logo" src="/assets/logo.svg" alt="Logo"></a>
+            </header>
+            <h1 id="landing-title"></h1>
+            <img id="landing-illustration" src="/assets/landing/opening.gif" alt="landing-illustration">
+            <p id="landing-description"></p>
+            <button class="btn_start" id="landing-start-btn"></button>
             <div id="language-selector">
                 <select id="lang-dropdown">
                     <option value="id" selected>Indonesia</option>
-                    <option value="en">English</option>
+                    <option value="en">English</option>                
                 </select>
             </div>
-            <h1 id="landing-title"></h1>
-            <p id="landing-description"></p>
-            <button class="btn_start" id="landing-start-btn"></button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a id="nav-tutorial">&nbsp;</a></li>
+                    <li><a id="nav-about">&nbsp;</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="quiz">
-            <p id="timer-display">05:00</p>
             <p id="question-counter">1/12</p>
-            <img id="quiz-image" class="image-quiz" alt="quiz-illustration">
             <p id="quiz-question"></p>
+            <img id="quiz-image" class="image-quiz" alt="quiz-illustration">
             <button id="btn_a" class="button_a"></button>
             <button id="btn_b" class="button_b"></button>
             <button id="btn_c" class="button_c"></button>
         </div>
         <div class="result">
-            <h2 id="result-header">Your Mushroom Type is:</h2>
+            <h2 id="result-header">Your Mushroom Type is</h2>
             <img id="result-image" src="" alt="mushroom-type-illustration">
-            <p id="result-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
-            <button id="result-download" class="btn_start">Download Result</button>
-            <button id="retake-quiz">Retake Quiz</button>
+            <button id="result-download" class="btn_start">Download</button>
+            <button id="retake-quiz">Ulangi</button>
         </div>
         <div class="tutorial">
             <h2 id="tutorial-title"></h2>
-            <p id="tutorial-text"></p>
+            <ul id ="tutorial-list"></ul>
             <button id="btn_back_main"></button>
         </div>
         <div class="about">
@@ -64,7 +62,7 @@
         </div>
     </main>
     <footer>
-        <p>&copy;2025 - by</p>
+        <p>&copy;2025 | Olif & Hasan </p>
     </footer>
     <script src="script.js"></script>
 </body>
