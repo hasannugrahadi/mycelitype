@@ -18,38 +18,42 @@
             </header>
             <h1 id="landing-title"></h1>
             <img id="landing-illustration" src="/assets/landing/opening.gif" alt="landing-illustration">
-            <p id="landing-description"></p>
-            <button class="btn_start" id="landing-start-btn"></button>
+            <div class="container">
+                <p id="landing-description""></p>
+            </div>
+            <button id="landing-start-btn" class="btn_start"></button>
             <div id="language-selector">
                 <select id="lang-dropdown">
                     <option value="id" selected>Indonesia</option>
                     <option value="en">English</option>                
                 </select>
             </div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a id="nav-tutorial">&nbsp;</a></li>
-                    <li><a id="nav-about">&nbsp;</a></li>
-                </ul>
-            </nav>
+            <div class="nav-links">
+                <button id="nav-tutorial" class="btn_info"></button>
+                <button id="nav-about" class="btn_info"></button>
+            </div>
         </div>
         <div class="quiz">
-            <p id="question-counter">1/12</p>
+            <p id="question-counter"></p>
             <p id="quiz-question"></p>
             <img id="quiz-image" class="image-quiz" alt="quiz-illustration">
-            <button id="btn_a" class="button_a"></button>
-            <button id="btn_b" class="button_b"></button>
-            <button id="btn_c" class="button_c"></button>
+            <div>
+                <button id="btn_a" class="btn_option"></button>
+                <button id="btn_b" class="btn_option"></button>
+                <button id="btn_c" class="btn_option"></button>
+            </div>
         </div>
         <div class="result">
             <h2 id="result-header">Your Mushroom Type is</h2>
             <img id="result-image" src="" alt="mushroom-type-illustration">
-            <button id="result-download" class="btn_start">Download</button>
-            <button id="retake-quiz">Ulangi</button>
+            <div class="nav-links">
+                <button id="result-download" class="btn_info"></button>
+                <button id="retake-quiz" class="btn_info"></button>    
+            </div>
         </div>
         <div class="tutorial">
             <h2 id="tutorial-title"></h2>
-            <ul id ="tutorial-list"></ul>
+            <p id ="tutorial-list"></p>
             <button id="btn_back_main"></button>
         </div>
         <div class="about">
@@ -61,6 +65,7 @@
             <img id="transition-image" src="/assets/transition.gif" alt="transition-illustration">
         </div>
     </main>
+    <div id="modal-overlay" class="modal-overlay"></div>
     <footer>
         <p>&copy;2025 | Olif & Hasan </p>
     </footer>

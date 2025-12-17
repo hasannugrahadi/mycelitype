@@ -3,31 +3,31 @@
         "menu":{
             "tutorial":"Bantuan",
             "about":"Tentang",
-            "description1":"Selamat datang di MyceliVerse",
+            "description1":"Selamat datang di MyceliType",
             "description2":"Temukan tipe kepribadianmu melalui petualangan interaktif di hutan ajaib ini.",
             "start":"Mulai"
         },
         "tutorial":{
-            "text":"<li>Buka halaman tes.</li><br>Kamu akan diajak menjelajahi “hutan” untuk mengenali pilihanmu.<li>Isi dengan tenang.</li><br>Pilih jawaban yang paling menggambarkan dirimu saat ini, bukan versi ideal atau yang kamu inginkan. <li>Lihat hasilnya.</li><br>Kamu akan mendapatkan jenis jamur yang mewakili karaktermu."
+            "text":"serius kamu butuh bantuan?, yaudah sini kita bantu: <br><br> 1.Pencet tombol mulai <br> 2.Pilih jawaban yang sesuai, ingat ya yang sesuai dengan kamu bukan yang paling ideal<br>3.Hasilnya akan muncul di akhir "
         },
         "about":{
-            "text":""
+            "text":"website ini merupakan personalisasi dari MBTI, terinspirasi dari kuis <a href=\"https://iseej.github.io/CosmosPersona/\">CosmicPersona</a>. Setiap jawaban yang kamu pilih akan menentukan tipe kepribadian jamur apa yang sesuai denganmu. "
         },
         "quiz": {
             "Q1": {
             "Question": "Di awal perjalanan, kamu dan temanmu menyusuri jalan setapak dengan kompas dan peta di tanganmu. Namun, secara tak terduga, kompas mu diambil oleh seekor gagak, apa yang kamu lakukan?",
             "Options": {
                 "1": "Menjadi pemandu, memberi arahan dan menyusun rute di peta",
-                "2": "Membuka track GPS yang kamu siapkan sebelumnya dan menyusun ulang rencana",
-                "3": "Menertawakan kejadian barusan, dan membiarkan rasa ingin tahu yang menuntunmu untuk cari jalan"
+                "2": "Membuka track GPS yang kamu siapkan sebelumnya",
+                "3": "Menertawakan dan membiarkan kejadian barusan"
             }
             },
             "Q2": {
             "Question": "Kamu ingin menyeberang. Kamu dihadapkan pada dua pilihan, di depanmu ada jembatan dari akar pohon yang rapuh, dan di sisi yang jauh ada jalan dengan penanda",
             "Options": {
-                "1": "Mengecek barang bawaan, melangkah perlahan, dan melewati jembatan dengan selamat",
-                "2": "Mengahadapi tantangan dengan seru, penuh energi menyeberangi jembatan",
-                "3": "Membimbing teman untuk memilih jalan yang lebih aman walaupun jauh"
+                "1": "melangkah perlahan, dan melewati jembatan dengan selamat",
+                "2": "Mengahadapi tantangan dengan penuh energi menyeberangi jembatan",
+                "3": "Membimbing teman untuk memilih jalan yang lebih aman"
             }
             },
             "Q3": {
@@ -35,14 +35,14 @@
             "Options": {
                 "1": "Koordinasi dengan teman untuk melakukan pencarian cepat",
                 "2": "Menyiapkan air dan makanan, untuk bersiap menolong",
-                "3": "Membuat gambaran area pencarian lengkap dengan waktu yang dibutuhkan, agar efisien"
+                "3": "Membuat gambaran area pencarian dan estimasi agar efisien"
             }
             },
             "Q4": {
-            "Question": "Kamu menemukan ukiran di pohon yang berbunyi \"Saat sungai lupa mengalir, ikutlah langit yang terpantul di tanah\". Dibawahnya terdapat cermin kecil diantara lelumutan, apa yang akan kamu lakukan?",
+            "Question": "Kamu menemukan ukiran di pohon yang berbunyi \"Saat sungai lupa mengalir, ikutlah langit yang terpantul di tanah\". Dibawahnya terdapat sebuah cermin kecil, apa yang akan kamu lakukan?",
             "Options": {
-                "1": "Mencatat teka-tekinya, merasakan maknanya, dan ikuti kemana hatimu tertuju",
-                "2": "Berusaha memecah teka-teki tersebut, membagi tugas, dan mencari solusi secara bertahap",
+                "1": "merasakan makna dari ukirannya, dan ikuti kemana hatimu tertuju",
+                "2": "Berusaha memecah teka-teki dan mencari solusi secara bertahap",
                 "3": "Membuat coretan dan biarkan jawaban datang seiring waktu"
             }
             },
@@ -55,9 +55,9 @@
             }
             },
             "Q6": {
-            "Question": "Keesokan paginya, kamu dihadapkan pada dua jalur bercabang, satu menuju ke air terjun yang deras dan menantang, satunya lagi menuju dataran terbuka yang tenang. Cermin yang kamu bawa kemarin terasa hangat di genggamanmu, jalur mana yang akan kamu pilih?",
+            "Question": "Keesokan paginya, kamu dihadapkan dengan dua jalur bercabang, satu menuju ke air terjun yang deras dan menantang, satunya lagi menuju dataran terbuka yang tenang. Jalur mana yang akan kamu pilih?",
             "Options": {
-                "1": "Air terjun, menerobos tantangan yang ada",
+                "1": "Air terjun, menerobos tantangan yang ada di depan",
                 "2": "Dataran terbuka, menikmati ketenangan alam",
                 "3": "Memilih jalur sesuai pertimbangan terbaik"
             }
@@ -66,22 +66,22 @@
             "Question": "Seketika hujan datang dengan derasnya. Jalan yang kamu lalui menjadi licin dan berlumpur. Apa yang kamu lakukan?",
             "Options": {
                 "1": "Berkumpul, mendirikan terpal, tetap fokus pada rencana",
-                "2": "Menyimpan barang penting dan tetap meneruskan perjalanan dengan semangat",
+                "2": "Menyimpan barang penting dan tetap berjalan dengan semangat",
                 "3": "Menyusun ulang rute dan memilih rute yang lebih aman"
             }
             },
             "Q8": {
             "Question": "Kamu melewati semak-semak yang penuh dengan buah-buahan liar di tepi sungai yang mengalir mundur. Cermin di genggamanmu terasa lebih terang, (apakah ini ilusi?) apa yang kamu lalukan?",
             "Options": {
-                "1": "Mencoba satu buah dan menantang temanmu untuk ikut memakan buah tersebut",
-                "2": "Membiarkan buah buahan tersebut tetap di tempatnya, menjaga ekosistem",
-                "3": "Hanya mengambil beberapa buah untuk dicicipi supaya keseimbangan alam tetap terjaga"
+                "1": "Mencoba satu buah dan menantang temanmu untuk ikut memakannya",
+                "2": "Membiarkan buah buahan tersebut, menjaga ekosistem",
+                "3": "Hanya mengambil beberapa buah demi keseimbangan alam"
             }
             },
             "Q9": {
-            "Question": "Dalam perjalananmu, di sisi yang lain kamu menemukan sebuah pohon yang telah ditebang dengan ukiran simbol aneh, mungkin sudah ada sejak lama. Cermin di genggamanmu bergetar mengisyaratkan sesuatu, apa yang kamu lakukan?",
+            "Question": "Dalam perjalananmu, di sisi yang lain kamu menemukan sebuah pohon yang telah ditebang dengan ukiran simbol aneh. Cermin di genggamanmu bergetar mengisyaratkan sesuatu, apa yang kamu lakukan?",
             "Options": {
-                "1": "Membaca simbol tersebut dan mencoba memahaminya, mengikuti intuisimu untuk menemukan jawabannya",
+                "1": "Membaca simbol tersebut dan mencoba memahaminya",
                 "2": "Berteori dengan pertimbangan logis untuk menafsirkan artinya",
                 "3": "Mengira-ngira asal usul symbol tersebut dan menafsirkannya"
             }
@@ -89,32 +89,32 @@
             "Q10": {
             "Question": "Malam turun, yang tersisa hanyalah sebuah lentera. Kunang-kunang menyusun garis layaknya sebuah huruf, (mungkin mereka mencoba menyampaikan sebuah rahasia?), apa yang kamu lakukan?",
             "Options": {
-                "1": "Ikut terhanyut dengan kunang-kunang",
+                "1": "Ikut terhanyut dengan kunang-kunang menghiraukan pesannya",
                 "2": "Berjalan dengan hati-hati, dan tetap menjaga keseimbangan",
-                "3": "Mengarahkan lentera ke kunang-kunang, mencoba menyaingi cahaya mereka"
+                "3": "Mengarahkan lentera ke kunang-kunang, berusaha menyaingi mereka"
             }
             },
             "Q11": {
             "Question": "Setelah menuruni lembah, tiba tiba kamu melihat festival yang meriah di dalam hutan. Di sisi seberang, kamu melihat bukit yang penuh ketenangan. Mana yang kamu pilih?",
             "Options": {
-                "1": "Festival, merayakan dengan penuh keseruan",
+                "1": "Festival, merayakan dengan penuh keseruan dan kegembiraan",
                 "2": "Festival, mempererat ikatan, menambah momen berharga",
-                "3": "Bukit, mencari ketenangan dan keajaiban alam"
+                "3": "Bukit, mencari ketenangan dan keajaiban alam yang damai"
             }
             },
             "Q12": {
-            "Question": "Di akhir perjalananmu, kamu menemukan pohon cedar raksasa di depanmu, dan dengan cermin di genggamanmu, pohon tadi langsung membentuk sebuah tempat dimana kamu dapat menaruh petunjuk (mungkin) untuk petualang selanjutnya, apa yang akan kamu tinggalkan?",
+            "Question": "Di akhir perjalananmu, kamu menemukan pohon cedar raksasa, dan dengan cermin di genggamanmu, pohon tadi membentuk sebuah tempat untuk kamu menaruh petunjuk (mungkin) untuk petualang selanjutnya, apa yang akan kamu tinggalkan?",
             "Options": {
-                "1": "Rencana yang tak lekang oleh waktu, seperti rute dan kemungkinan yang ada",
+                "1": "rute dan kemungkinan yang ada yang tak lekang oleh waktu",
                 "2": "Sebuah checklist yang harus petualang lain lakukan",
-                "3": "Sebuah puisi dengan kata-kata yang lembut"
+                "3": "Sebuah puisi dengan kata-kata yang menyentuh"
             }
             }
         },
         "results":{
             "header":"Ini adalah tipe jamurmu:",
-            "feedback":"Berikan saran dan masukanmu di sini",
-            "share":"Bagikan hasilmu disini"
+            "download":"Unduh hasilnya",
+            "retake":"halaman depan"
         }
     },
     "en":{
@@ -125,11 +125,11 @@
             "description2":"Discover your mushroom personality type through this interactive forest adventure.",
             "start":"Start"
         },
-        "tutorial":{
-            "text":"<li>Open the quiz page.</li><br>You will be taken on a journey through a magical forest to explore your choices.<li>Answer calmly.</li><br>Choose the answer that best describes you right now, not the ideal version or what you want to be. <li>See your results.</li><br>You will receive a mushroom type that represents your character."
+        "tutorial": {
+            "text": "Seriously, do you need help? Alright, let’s help you out: <br><br> 1. Press the Start button <br> 2. Choose the answer that fits you best — remember, pick what truly matches you, not the most ideal one <br> 3. Your result will appear at the end"
         },
-        "about":{
-            "text":""
+        "about": {
+            "text": "This website is a personalized take on MBTI, inspired by the quiz <a href=\"https://iseej.github.io/CosmosPersona/\">CosmicPersona</a>. Every answer you choose will determine which mushroom personality type suits you best."
         },
         "quiz": {
             "Q1": {
@@ -137,7 +137,7 @@
                 "Options": {
                     "1": "Take the lead, give directions, and plan the route. ",
                     "2": "Open your prepared GPS track and stick to the plan. ",
-                    "3": "Laugh it off and let curiosity guide you. "
+                    "3": "Laugh it off and let the curiosity guide you freely."
                 }
             },
             "Q2": {
@@ -153,7 +153,7 @@
                 "Options": {
                     "1": "Coordinate with friends for a quick, structured search. ",
                     "2": "Prepare food and water to help whoever you find. ",
-                    "3": "Map the search area and time to be efficient. "
+                    "3": "Map the search area and time to be efficient precisely."
                 }
             },
             "Q4": {
@@ -167,7 +167,7 @@
             "Q5": {
                 "Question": "Night falls. You find a campsite, but there are no dry branches for a fire. What do you do? ",
                 "Options": {
-                    "1": "Improvise a fire with limited tools. ",
+                    "1": "Improvise a fire with limited tools that you find. ",
                     "2": "Gather everyone to search and lift the mood together. ",
                     "3": "Use the backup gear you prepared ahead of time. "
                 }
@@ -175,17 +175,17 @@
             "Q6": {
                 "Question": "Morning comes. The trail splits: one to a challenging waterfall, one to a calm clearing. The mirror feels warm. Which do you choose? ",
                 "Options": {
-                    "1": "The waterfall—push through the challenge. ",
-                    "2": "The clearing—enjoy the calm of nature. ",
-                    "3": "Choose the path that fits your goal best. "
+                    "1": "The waterfall, push through the challenge bravely.",
+                    "2": "The clearing, enjoy the calm of nature fully and quietly.",
+                    "3": "Choose the path that fits your goal best wisely."
                 }
             },
             "Q7": {
                 "Question": "Suddenly, heavy rain pours down. The path becomes slippery and muddy. What do you do? ",
                 "Options": {
-                    "1": "Group up, set up shelter, and stick to the plan. ",
-                    "2": "Protect belongings and keep moving with high spirits. ",
-                    "3": "Rethink the route and choose a safer path. "
+                    "1": "Group up, set up shelter, and stick to the plan together.",
+                    "2": "Protect belongings and keep moving with high spirits.",
+                    "3": "Rethink the route and choose a safer path carefully."
                 }
             },
             "Q8": {
@@ -200,39 +200,39 @@
                 "Question": "You find a fallen tree with an ancient symbol. The mirror trembles. What do you do? ",
                 "Options": {
                     "1": "Read the symbol and follow your intuition to understand it. ",
-                    "2": "Analyze logically to interpret its meaning. ",
+                    "2": "Analyze logically to interpret its meaning thoroughly.",
                     "3": "Imagine its origin story and interpret it yourself. "
                 }
             },
             "Q10": {
                 "Question": "Night falls; only one lantern remains. Fireflies form shapes like secret letters. What do you do? ",
                 "Options": {
-                    "1": "Keep everyone close and share the light. ",
-                    "2": "Walk ahead with focus and keep your balance. ",
-                    "3": "Lift the lantern to compete with their glow. "
+                    "1": "Keep everyone close and share the light together.",
+                    "2": "Walk ahead with focus and keep your balance steady.",
+                    "3": "Lift the lantern to compete with their glow proudly."
                 }
             },
             "Q11": {
                 "Question": "In the valley, you see a lively festival. On the hill, you see calm shooting stars. Which do you choose? ",
                 "Options": {
-                    "1": "The festival—celebrate with excitement. ",
-                    "2": "The festival—strengthen bonds and make memories. ",
-                    "3": "The hilltop—seek calm and nature's magic. "
+                    "1": "The festival, full of excitement and celebration.",
+                    "2": "The festival, strengthen bonds and make memories. ",
+                    "3": "The hilltop, seek calm and nature's magic. "
                 }
             },
             "Q12": {
                 "Question": "At the end, a giant cedar reveals a hollow space for a message. What will you leave behind? ",
                 "Options": {
-                    "1": "A timeless plan of routes and strategies. ",
-                    "2": "A checklist for other travelers to follow. ",
-                    "3": "A gentle poem with warm words. "
+                    "1": "A timeless plan of routes and strategies carefully.",
+                    "2": "A clear checklist for other travelers to follow.",
+                    "3": "A gentle poem with warm words inside softly."
                 }
             }
         },
         "results":{
             "header":"This is your mushroom type:",
-            "feedback":"You can send your suggestions and feedback here",
-            "share":"Share your results here"
+            "download":"download result",
+            "retake":"to front page"
         }
     },
     "illust":{
