@@ -59,7 +59,7 @@
             "Options": {
                 "1": "Air terjun, menerobos tantangan yang ada di depan",
                 "2": "Dataran terbuka, menikmati ketenangan alam",
-                "3": "Memilih jalur sesuai pertimbangan terbaik"
+                "3": "Memilih jalur sesuai dengan pertimbangan terbaik"
             }
             },
             "Q7": {
@@ -236,9 +236,6 @@
         }
     },
     "illust":{
-        "menu":"",
-        "tutorial":"",
-        "about":"",
         "quiz":{
             "Q1":"q1.gif",
             "Q2":"q2.gif",

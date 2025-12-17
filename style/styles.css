@@ -150,6 +150,7 @@ h1, h2{
     width: 100%;
     max-width: 300px;
     background: #F5E6D3;
+    border: 2px solid #e0d3c0;
     color: #654321;
     border-radius: 8px;
     padding: 12px 16px;
@@ -161,7 +162,11 @@ h1, h2{
 }
 
 .btn_option:hover {
-    transform: translateY(-2px);
+    border: 2px solid #b86b13;
+}
+
+.btn_option:active {
+    border: 2px solid #b86b13;
 }
 
 .image-quiz{
@@ -292,7 +297,7 @@ h1, h2{
 @media (max-width: 600px) {
 
     main {
-        padding-top: 5rem;
+        padding-top: 2rem;
     }
 
     footer{
@@ -303,11 +308,9 @@ h1, h2{
         max-width: 300px;
         margin: 0 auto;
     }
-    .modal-content {
-        max-width: 200vw;
-    }
+
     #result-image {
-    width: em;
+    width: 16em;
     padding: 1em 0;
     height: auto;
     object-fit: contain;
